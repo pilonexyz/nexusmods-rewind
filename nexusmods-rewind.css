@@ -352,7 +352,7 @@
     }
     
     .p-1 {
-	padding-left: .50rem;
+	*padding-left: .50rem;
 }
     
     .sm\:px-0 {
