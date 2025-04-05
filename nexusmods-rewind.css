@@ -1303,9 +1303,15 @@ hr {
 --tw-gradient-to-position: 70%;
 }
      
-.hidden {
-	*display: flex
-}    
+.mods-grid {
+  & > * {
+    & > :last-child {
+      & > span > .hidden {
+        display: flex;
+      }
+    }
+  }
+}
  
 .rotate-45 {
 	display:none;
